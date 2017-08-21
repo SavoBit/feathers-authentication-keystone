@@ -6,12 +6,21 @@
 [![Dependency Status](https://img.shields.io/david/virtuozzo/feathers-authentication-keystone.svg?style=flat-square)](https://david-dm.org/virtuozzo/feathers-authentication-keystone)
 [![Download Status](https://img.shields.io/npm/dm/feathers-authentication-keystone.svg?style=flat-square)](https://www.npmjs.com/package/feathers-authentication-keystone)
 
-> Keystone authentication strategy for feathers-authentication using Passport
+Keystone authentication strategy for feathers-authentication using Passport.
+
+- [feathers-authentication-keystone](#feathers-authentication-keystone)
+    - [Installation](#installation)
+    - [Documentation](#documentation)
+        - [Default Options](#default-options)
+        - [Verifier](#verifier)
+            - [Customizing the Verifier](#customizing-the-verifier)
+        - [Complete Example](#complete-example)
+    - [License](#license)
 
 ## Installation
 
-```
-npm install feathers-authentication-keystone --save
+```bash
+$ npm install feathers-authentication-keystone --save
 ```
 
 ## Documentation
@@ -19,7 +28,7 @@ npm install feathers-authentication-keystone --save
 Please refer to the [feathers-authentication-keystone documentation](http://docs.feathersjs.com/) for more details.
 
 
-#### Default Options
+### Default Options
 
 ```js
 {
@@ -67,7 +76,7 @@ class CustomVerifier extends Verifier {
 app.configure(keystone({ Verifier: CustomVerifier }));
 ```
 
-## Complete Example
+### Complete Example
 
 Here's an example of a Feathers server that uses `feathers-authentication-keystone`.
 
