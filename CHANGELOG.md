@@ -1,5 +1,12 @@
 # Change Log
 
+## [v0.3.0](https://github.com/virtuozzo/feathers-authentication-keystone/tree/v0.3.0) (2017-08-21)
+[Full Changelog](https://github.com/virtuozzo/feathers-authentication-keystone/compare/v0.2.0...v0.3.0)
+
+**Fixed bugs:**
+
+- Add sanity error for ECONNREFUSED [\#6](https://github.com/virtuozzo/feathers-authentication-keystone/pull/6) ([amisa](https://github.com/amisa))
+
 ## [v0.2.0](https://github.com/virtuozzo/feathers-authentication-keystone/tree/v0.2.0) (2017-07-22)
 [Full Changelog](https://github.com/virtuozzo/feathers-authentication-keystone/compare/v0.1.0...v0.2.0)
 
