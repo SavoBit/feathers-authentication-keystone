@@ -6,7 +6,10 @@
   "main": "lib/",
   "keywords": [
     "feathers",
-    "feathers-plugin"
+    "feathers-plugin",
+    "feathers-authentication",
+    "openstack",
+    "keystone"
   ],
   "license": "MIT",
   "repository": {
